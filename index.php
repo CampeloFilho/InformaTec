@@ -1,181 +1,194 @@
 <!DOCTYPE html>
-  <html>
+<html>
     <head>
-        <title>HOME</title>
+        <title>Home - InfoTec</title>
         <meta charset="UTF-8">
         <!--Import Google Icon Font-->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <!--Import materialize.css-->
         <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-
         <!--Let browser know website is optimized for mobile-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     </head>
-
     <body>
-        <!--Começo do menu-->
+        <!--Começo do Menu-->
         <nav>
-            <div class="nav-wrapper blue lighten-2">
+            <div class="nav-wrapper purple accent-3">
                 <ul class="left">
                     <li><a href="#"><img src="img/LOGO_EEEPJA_3.png" width="50"></a></li>
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">INFORMÁTICA</a></li>
-                    <li><a href="#">GAMER</a></li>
-                    <li><a href="#">TELEFONIA</a></li>
+                    <li><a href="#">Gamer</a></li>
+                    <li><a href="#">TV</a></li>
+                    <li><a href="#">PC's</a></li>
+                    <li><a href="#">Telefonia</a></li>
+                    <li><a href="#">Áudio e video</a></li>
+                    <li><a href="cadastro_cliente.php">Cadastro Cliente</a></li>
                 </ul>
             </div>
         </nav>
         <!--Fim do menu-->     
-            
-        <!--Começo do Slide-->
+        <!--Começo do slide-->
         <div class="slider">
             <ul class="slides">
-                <li><img src="img/pc01.png"></li>
-                <li><img src="img/LOGO_EEEPJA_3.png"></li>
-                <li><img src="img/LOGO_EEEPJA_3.png"></li>
-                <li><img src="img/LOGO_EEEPJA_3.png"></li>
+                <li><img class="m3 responsive-img" src="img/001.png"></li>
+                <li><img src="img/slide01.png"></li>
+                <li><img src="img/slide01.png"></li>
+                <li><img src="img/slide01.png"></li>
             </ul>
         </div>
-        <!--Fim do Slide-->
-            
+        <!--Fim do slide-->  
         <div class="row">
-            <h3 class="blue lighten-2 white-text">CATERGORIAS</h3>
+            <h3 class="purple accent-3 white-text">Categorias</h3>
         </div>
-            
-        <!-- iniciando os cards -->
-            <div class="row">
-                <div class="col s6 m3">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="img/pc01.png">
-                        </div>
-                        <div class="card-content">
-                            <p>Processador: CORE I3<br>Memória RAM: 4GB <br></p>
-                        </div>
-                        <div class="card-action">
-                            <a href="#">VER DETALHES</a>
-                        </div>
+        <!--Começo dos cards-->
+        <div class="row">        
+            <div class="col s6 m3">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/pc01.png">
+                    </div>
+                    <div class="card-content">
+                        <p>Processador: Core I3<br>Memória RAM: 4GB <br></p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Ver detalhes</a>
                     </div>
                 </div>
-                <div class="col s6 m3">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="img/pc01.png">
-                        </div>
-                        <div class="card-content">
-                            <p>
-                                Processador: CORE I3<br>
-                                Memória RAM: 4GB <br>
-                            </p>
-                        </div>
-                        <div class="card-action">
-                            <a href="#">VER DETALHES</a>
-                        </div>
-                    </div>
-                </div>
-                    <div class="col s6 m3">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="img/pc01.png">
-                            </div>
-                            <div class="card-content">
-                                <p>Processador: CORE I3<br>
-                                    Memória RAM: 4GB <br>
-                                        
-                                </p>
-                            </div>
-                            <div class="card-action">
-                                <a href="#">VER DETALHES</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col s6 m3">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="img/pc01.png">
-                        </div>
-                        <div class="card-content">
-                            <p>
-                                Processador: CORE I3<br>
-                                Memória RAM: 4GB <br>
-                            </p>
-                        </div>
-                        <div class="card-action">
-                            <a href="#">VER DETALHES</a>
-                        </div>
-                    </div>
-                </div>
-            </div>   
-            <!-- TÉRMINO DA LINHA DOS CARDS -->
-                
-            <div class="row">
-                <h3 class="white-text blue lighten-2">OFERTAS</h3>
             </div>
-            
-            <!--Começo Ofertas-->
+            <div class="col s6 m3">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/pc01.png">
+                    </div>
+                    <div class="card-content">
+                        <p>Processador: CORE I3<br>
+                            Memória RAM: 4GB <br>
+                        </p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Ver detalhes</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s6 m3">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/pc01.png">
+                    </div>
+                    <div class="card-content">
+                        <p>Processador: CORE I3<br>
+                            Memória RAM: 4GB <br>
+                        </p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Ver detalhes</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s6 m3">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/pc01.png">
+                    </div>
+                    <div class="card-content">
+                        <p>Processador: CORE I3<br>
+                            Memória RAM: 4GB <br>
+                        </p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Ver detalhes</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Fim dos cards-->
+        <div class="row">
+            <h3 class="white-text purple accent-3">Ofertas</h3>
+        </div>
+        <!--Começo das Ofertas-->
+        <div class="container">
+            <div class="row">          
+                <div class="col s6">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/pc02.jpg">
+                            <a class="btn-floating halfway-fab waves-effect waves-light purple accent-3"><i class="material-icons">add</i></a>
+                        </div>
+                        <div class="card-content">
+                            <p>Ofertas do dia - Computadores</p>
+                        </div>
+                    </div>
+                </div>      
+                <div class="col s6">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/pc02.jpg">
+                            <a class="btn-floating halfway-fab waves-effect waves-light purple accent-3"><i class="material-icons">add</i></a>
+                        </div>
+                        <div class="card-content">
+                            <p>Ofertas do dia - Computadores</p>
+                        </div>
+                    </div>
+                </div>   
+            </div>
+        </div> 
+        <!--Fim das Ofertas--> 
+        <!--Mais vistos-->
+        <p class="center purple accent-3 white-text">Mais vistos</p>
+        <div class="container">
+            <div class="row">      
+                <div class="col s3 ">
+                    <center>
+                        <img  class="responsive-img circle"src="img/pc02.jpg" width="100">
+                    </center>
+                    <p>informática</p>
+                </div>      
+                <div class="col s3">
+                    <img  class="responsive-img circle"src="img/pc02.jpg" width="100">
+                    <p>informática</p>
+                </div>     
+                <div class="col s3">
+                    <img  class="responsive-img circle"src="img/pc02.jpg" width="100">
+                    <p>informática</p>
+                </div>      
+                <div class="col s3">
+                    <img  class="responsive-img circle"src="img/pc02.jpg" width="100">
+                    <p>informática</p>
+                </div>
+            </div>
+        </div>
+        <!--Import jQuery before materialize.js-->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('.slider').slider();
+            });
+        </script>
+        <!-- rodapé ou footer -->
+        <footer class="page-footer purple accent-3">
             <div class="container">
                 <div class="row">
-                    <div class="col s5">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="img/pc02.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
-                            </div>
-                            <div class="card-content">
-                                <p>OFERTAS DO DIA - COMPUTADOR</p>
-                            </div>
-                        </div>
+                    <div class="col l6 s12">
+                        <h5 class="white-text">Programação Web II</h5>
+                        <p class="grey-text text-lighten-4">EEEP Joaquim Antônio Albano <br> Prof: Carlos Henrique</p>
                     </div>
-                    <div class="col s5">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="img/pc02.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
-                            </div>
-                            <div class="card-content">
-                                <p>OFERTAS DO DIA - COMPUTADOR</p>
-                            </div>
-                        </div>
+                    <div class="col l4 offset-l2 s12">
+                        <h5 class="white-text">Links</h5>
+                        <ul>
+                            <li><a class="grey-text text-lighten-3" href="index.php">HOME</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">INFORMÁTICA</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">GAMER</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">TELEFONIA</a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
-            <!--Fim ofertas-->
-            
-            <!--Começo do rodapé--> 
-            <footer class="page-footer blue lighten-2">
+            <div class="footer-copyright">
                 <div class="container">
-                    <div class="row">
-                        <div class="col l6 s12">
-                            <h5 class="white-text">PROGRAMAÇÃO WEB II</h5>
-                            <p class="grey-text text-lighten-4">EEEP Joaquim Antônio Albano <br> Prof: Carlos Henrique</p>
-                        </div>
-                        <div class="col l4 offset-l2 s12">
-                            <h5 class="white-text">Links</h5>
-                            <ul>
-                                <li><a class="grey-text text-lighten-3" href="#!">HOME</a></li>
-                                <li><a class="grey-text text-lighten-3" href="#!">INFORMÁTICA</a></li>
-                                <li><a class="grey-text text-lighten-3" href="#!">GAMER</a></li>
-                                <li><a class="grey-text text-lighten-3" href="#!">TELEFONIA</a></li>
-                            </ul>
-                        </div>
-                    </div>
+                    © 2021 - Raimundo Nonato Neves Campelo Filho    
+                    <a class="grey-text text-lighten-4 right">2º INFORMÁTICA</a>
                 </div>
-                <div class="footer-copyright">
-                    <div class="container">
-                        © 2021 - CARLOS HENRIQUE
-                        <a class="grey-text text-lighten-4 right" href="#!">2º INFORMÁTICA</a>
-                    </div>
-                </div>
-            </footer>
-            <!--Fim do rodapé--> 
-            
-            <!--Import jQuery before materialize.js-->
-            <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-            <script type="text/javascript" src="js/materialize.min.js"></script>
-            <script>
-                $(document).ready(function(){
-                    $('.slider').slider();
-                });
-            </script> 
-        </body>
-    </html>
+            </div>
+        </footer>
+    </body>
+</html>
