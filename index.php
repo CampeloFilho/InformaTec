@@ -21,7 +21,9 @@
                     <li><a href="PC's.php">PC's</a></li>
                     <li><a href="Telefonia.php">Telefonia</a></li>
                     <li><a href="Audio_e_video.php">Áudio e video</a></li>
-                    <li><a href="cadastro_cliente.php">Cadastro Cliente</a></li>
+                </ul>
+                <ul class="right">
+                    <li><a href="cadastro_cliente.php"><i class="large material-icons">account_circle</i></a></li>    
                 </ul>
             </div>
         </nav>
@@ -177,7 +179,7 @@
                         <ul>
                             <li><a class="grey-text text-lighten-3" href="index.php">Home</a></li>
                             <li><a class="grey-text text-lighten-3" href="PC's.php">PC's</a></li>
-                            <li><a class="grey-text text-lighten-3" href="TV.php">PC's</a></li>
+                            <li><a class="grey-text text-lighten-3" href="TV.php">TV's</a></li>
                             <li><a class="grey-text text-lighten-3" href="Gamer.php">Gamer</a></li>
                             <li><a class="grey-text text-lighten-3" href="Telefonia.php">Telefonia</a></li>
                             <li><a class="grey-text text-lighten-3" href="Audio_e_video.php">Audio e Video</a></li>
