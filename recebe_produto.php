@@ -13,22 +13,21 @@
     </head>
 
  <body>
-     
-   <nav>
-    <div class="nav-wrapper blue lighten-2">
-      <ul class="left">
-          <li><a href="#"><img src="img/LOGO_EEEPJA_3.png" width="50"></a></li>
-        <li><a href="#">HOME</a></li>
-        <li><a href="#">INFORMÁTICA</a></li>
-        <li><a href="#">GAMER</a></li>
-        <li><a href="#">TELEFONIA</a></li>
-        <li><a href="cadastro_produto.php">CADASTRO</a></li>
-
-        
-      </ul>
-    </div>
-  </nav>
-     
+<!--Começo do Menu-->
+        <nav>
+            <div class="nav-wrapper purple accent-3">
+                <ul class="left">
+                    <li><a href="#"><img src="img/LOGO_EEEPJA_3.png" width="50"></a></li>
+                    <li><a href="Gamer.php">Gamer</a></li>
+                    <li><a href="TV.php">TV</a></li>
+                    <li><a href="PC's.php">PC's</a></li>
+                    <li><a href="Telefonia.php">Telefonia</a></li>
+                    <li><a href="Audio_e_video.php">Áudio e video</a></li>
+                    <li><a href="cadastro_cliente.php">Cadastro Cliente</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!--Fim do menu--> 
      <div class="container">
          <h3 class="blue-text lighten-2">PRODUTO CADASTRADO</h3>
         
@@ -70,46 +69,34 @@
             ';
           ?>
            
-     </table>
-         
-         
-         
+        </table>
      </div>
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     <footer class="page-footer blue lighten-2">
-          <div class="container">
-            <div class="row">
-              <div class="col l6 s12">
-                <h5 class="white-text">PROGRAMAÇÃO WEB II</h5>
-                <p class="grey-text text-lighten-4">EEEP Joaquim Antônio Albano <br> Prof: Carlos Henrique</p>
-              </div>
-              <div class="col l4 offset-l2 s12">
-                <h5 class="white-text">Links</h5>
-                <ul>
-                  <li><a class="grey-text text-lighten-3" href="#!">HOME</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">INFORMÁTICA</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">GAMER</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">TELEFONIA</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="footer-copyright">
+     <footer class="page-footer purple accent-3">
             <div class="container">
-            © 2021 - CARLOS HENRIQUE
-            <a class="grey-text text-lighten-4 right" href="#!">2º INFORMÁTICA</a>
+                <div class="row">
+                    <div class="col l6 s12">
+                        <h5 class="white-text">Programação Web II</h5>
+                        <p class="grey-text text-lighten-4">EEEP Joaquim Antônio Albano <br> Prof: Carlos Henrique</p>
+                    </div>
+                    <div class="col l4 offset-l2 s12">
+                        <h5 class="white-text">Links</h5>
+                        <ul>
+                            <li><a class="grey-text text-lighten-3" href="index.php">Home</a></li>
+                            <li><a class="grey-text text-lighten-3" href="PC's.php">PC's</a></li>
+                            <li><a class="grey-text text-lighten-3" href="TV.php">PC's</a></li>
+                            <li><a class="grey-text text-lighten-3" href="Gamer.php">Gamer</a></li>
+                            <li><a class="grey-text text-lighten-3" href="Telefonia.php">Telefonia</a></li>
+                            <li><a class="grey-text text-lighten-3" href="Audio_e_video.php">Audio e Video</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-          </div>
+            <div class="footer-copyright">
+                <div class="container">
+                    © 2021 - Raimundo Nonato Neves Campelo Filho    
+                    <a class="grey-text text-lighten-4 right">2º INFORMÁTICA</a>
+                </div>
+            </div>
         </footer>
-  
  </body>
   </html>

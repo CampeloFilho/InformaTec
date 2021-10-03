@@ -16,11 +16,11 @@
             <div class="nav-wrapper purple accent-3">
                 <ul class="left">
                     <li><a href="#"><img src="img/LOGO_EEEPJA_3.png" width="50"></a></li>
-                    <li><a href="#">Gamer</a></li>
-                    <li><a href="#">TV</a></li>
-                    <li><a href="#">PC's</a></li>
-                    <li><a href="#">Telefonia</a></li>
-                    <li><a href="#">Áudio e video</a></li>
+                    <li><a href="Gamer.php">Gamer</a></li>
+                    <li><a href="TV.php">TV</a></li>
+                    <li><a href="PC's.php">PC's</a></li>
+                    <li><a href="Telefonia.php">Telefonia</a></li>
+                    <li><a href="Audio_e_video.php">Áudio e video</a></li>
                     <li><a href="cadastro_cliente.php">Cadastro Cliente</a></li>
                 </ul>
             </div>
@@ -175,10 +175,12 @@
                     <div class="col l4 offset-l2 s12">
                         <h5 class="white-text">Links</h5>
                         <ul>
-                            <li><a class="grey-text text-lighten-3" href="index.php">HOME</a></li>
-                            <li><a class="grey-text text-lighten-3" href="#!">INFORMÁTICA</a></li>
-                            <li><a class="grey-text text-lighten-3" href="#!">GAMER</a></li>
-                            <li><a class="grey-text text-lighten-3" href="#!">TELEFONIA</a></li>
+                            <li><a class="grey-text text-lighten-3" href="index.php">Home</a></li>
+                            <li><a class="grey-text text-lighten-3" href="PC's.php">PC's</a></li>
+                            <li><a class="grey-text text-lighten-3" href="TV.php">PC's</a></li>
+                            <li><a class="grey-text text-lighten-3" href="Gamer.php">Gamer</a></li>
+                            <li><a class="grey-text text-lighten-3" href="Telefonia.php">Telefonia</a></li>
+                            <li><a class="grey-text text-lighten-3" href="Audio_e_video.php">Audio e Video</a></li>
                         </ul>
                     </div>
                 </div>
